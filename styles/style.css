@@ -1,0 +1,74 @@
+/* body */
+body{
+    font-family: "DM Serif Text", serif;
+    background-color: rgb(5, 5, 5);
+}
+/* main section */
+.section{
+    background-color: rgb(59, 59, 58);
+    max-width: 500px;
+    padding: 100px;
+    margin:  auto;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    
+}
+
+/* picture */
+.picture{
+    border-radius:50%;
+}
+
+/* heading tag */
+.header{
+    color: aliceblue;
+}
+
+.para1{
+    color: rgb(149, 230, 68);
+}
+
+/* button */
+.btn{
+    background-color: rgb(99, 93, 93);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: none;
+    width: 100%;
+    color: aliceblue;
+    font-weight: 800;
+    cursor:pointer;
+    
+    
+}
+
+.btn:hover{
+    background-color: chartreuse;
+    color: black;
+    transition: all;
+}
+.reader{
+    font-weight: 800;
+}
+
+.text{
+    color: aliceblue;
+}
+.font{
+    font-size:large;
+}
+@media screen and (max-width:750px) {
+    .font{
+        font-size:x-small;  
+    }
+    .section{
+        padding: 30px;
+        margin: 30px;
+        margin-top: 50px;
+    }
+   
+}

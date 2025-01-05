@@ -1,11 +1,11 @@
 /* body */
 body{
     font-family: "DM Serif Text", serif;
-    background-color: rgb(5, 5, 5);
+    background-color: rgb(255, 255, 255);
 }
 /* main section */
 .section{
-    background-color: rgb(59, 59, 58);
+    background-color: rgba(58, 56, 58, 0.726);
     max-width: 500px;
     padding: 100px;
     margin:  auto;
@@ -14,11 +14,25 @@ body{
     border-radius: 10px;
     padding-top: 50px;
     padding-bottom: 40px;
-    
+    background-image:url(../assets/images/background.jpg)
 }
 
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+a:hover{
+    background-color: chartreuse;
+    color: black;
+    transition: all;
+
+}
 /* picture */
 .picture{
+    width:200px;
+    height: 200px;
     border-radius:50%;
 }
 
